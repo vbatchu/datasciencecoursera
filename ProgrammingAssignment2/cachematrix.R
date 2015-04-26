@@ -2,11 +2,6 @@
 ## functions do
 
 ## Write a short comment describing this function
-## The function makeCacheMatrix creates special vector with 4 functions
-## get & set functions to get and set the matrix
-## getInv  to provide inverse of a matrix from cache if is already computed
-## otherwise comptute and provide
-## setInv set the value of the inverse of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -20,7 +15,9 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get,
        setInv = setInv,
        getInv = getInv)
+
 }
+
 
 ## Write a short comment describing this function
 
